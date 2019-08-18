@@ -17,3 +17,15 @@ Flask(python)    | 幫助我建立伺服器
 HTML/CSS  | 網頁表示和排版
 Heroku   | 託管網頁
 Github   | 存放原始碼
+
+## 程式碼片段
+
+.. code-block:: python
+
+    from flask import Flask
+
+    app = Flask(__name__)
+
+    @app.route("/")
+    def hello():
+        return "Hello, World!"
